@@ -15,18 +15,18 @@ Check out my portfolio at [Dinulhaque.com](https://dinulhaque.com)
 
 ## Features
 
-About Me: Learn more about my background, skills, and passion for software development.
-Projects: Explore a showcase of my notable projects, including descriptions, technologies used, and live demos or source code links.
-Skills: Discover the technical skills and expertise I possess, including programming languages, frameworks, and tools.
-Contact: Get in touch with me through the provided contact form or find my social media profiles and email address.
-Responsive Design: The portfolio is fully responsive and optimized for various devices and screen sizes, ensuring a seamless experience across desktop, tablet, and mobile.
+- **About Me**: Learn more about my background, skills, and passion for software development.
+- **Projects**: Explore a showcase of my notable projects, including descriptions, technologies used, and live demos or source code links.
+- **Skills**: Discover the technical skills and expertise I possess, including programming languages, frameworks, and tools.
+- **Contact**: Get in touch with me through the provided contact form or find my social media profiles and email address.
+- **Responsive Design**: The portfolio is fully responsive and optimized for various devices and screen sizes, ensuring a seamless experience across desktop, tablet, and mobile.
 
 ## Getting Started
 To run this portfolio locally, follow these steps:
 
 ### Clone the repository:
 ```bash 
-git clone https://github.com/dinulhaque89/portfolio.git
+git clone git@github.com:dinulhaque89/myportfolio-nextjs.git
 ```
 
 ### Navigate to the project directory:
