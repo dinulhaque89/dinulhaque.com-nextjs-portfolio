@@ -2,7 +2,7 @@
 Welcome to my developer portfolio! This website showcases my skills, projects, and experience as a software developer. It is built using modern web technologies and frameworks to deliver a seamless and interactive user experience.
 
 ## Live Website
-Check out my portfolio at [Dinulhaque.com](**dinulhaque.com**)
+Check out my portfolio at [Dinulhaque.com](https://dinulhaque.com)
 
 ##  Technologies Used
 
