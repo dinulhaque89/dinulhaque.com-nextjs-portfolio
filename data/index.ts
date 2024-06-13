@@ -239,4 +239,15 @@ export const techStack = [
   { name: 'TypeScript', logo: '/techicons/typescript.svg' },
   { name: 'NEXTJS', logo: '/techicons/nextjs.svg' },
   { name: 'Tailwind CSS', logo: '/techicons/tailwind.svg' },
+  { name: 'Sentry', logo: '/techicons/sentry.svg' },
+  { name: 'Hostinger', logo: '/techicons/hostinger.svg' },
+  { name: 'Heroku', logo: '/techicons/heroku.svg' },
+  { name: 'Ansible', logo: '/techicons/ansible.svg' },
+  { name: 'Terraform', logo: '/techicons/terraform.svg' },
+  { name: 'Kubernetes', logo: '/techicons/kubernetes.svg' },
+  { name: 'Linux', logo: '/techicons/linux.svg' },
+  { name: 'Windows', logo: '/techicons/windows.svg' },
+  { name: 'Azure DevOps', logo: '/techicons/azuredevops.svg' },
+  { name: 'PowerShell', logo: '/techicons/powershell.svg' },
+  { name: 'Framer', logo: '/techicons/framer.svg' }
 ];

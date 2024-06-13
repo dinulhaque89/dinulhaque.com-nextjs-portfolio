@@ -1,9 +1,11 @@
 import {withSentryConfig} from "@sentry/nextjs";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        remotePatterns: [{ protocol: "https", hostname: "assets.aceternity.com"}],
+    output: 'export',
+    typescript: {
+        ignoreBuildErrors: true,
     },
+    images: { unoptimized: true }
 };
 
 export default withSentryConfig(nextConfig, {

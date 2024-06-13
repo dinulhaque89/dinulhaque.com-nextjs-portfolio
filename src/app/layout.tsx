@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.dinulhaque.com",
     images: [
       {
-        url: "https://www.dinulhaque.com/og-image.jpg",
+        url: "https://www.dinulhaque.com/2022.jpg",
         width: 1200,
         height: 630,
         alt: "Dinul Haque - Full Stack Software Engineer & DevOps Specialist",

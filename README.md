@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dinul Haque - Developer Portfolio
+Welcome to my developer portfolio! This website showcases my skills, projects, and experience as a software developer. It is built using modern web technologies and frameworks to deliver a seamless and interactive user experience.
+
+## Live Website
+Check out my portfolio at [Dinulhaque.com](**dinulhaque.com**)
+
+##  Technologies Used
+
+- **Next.js** : A powerful React framework for building server-side rendered and statically generated web applications.
+- **Acenernity UI**: A UI component library that provides a set of pre-built, customizable components for rapid development.
+- **Shadcn UI**: Another UI component library that offers a collection of stylish and responsive UI components.
+- **Tailwind CSS**: A utility-first CSS framework that enables rapid UI development with pre-defined classes.
+- **Hostinger**: A reliable and fast web hosting provider that ensures optimal performance and uptime for my portfolio website.
+- **Sentry**: An error tracking and monitoring platform that helps identify and resolve any issues or exceptions in real-time.
+
+## Features
+
+About Me: Learn more about my background, skills, and passion for software development.
+Projects: Explore a showcase of my notable projects, including descriptions, technologies used, and live demos or source code links.
+Skills: Discover the technical skills and expertise I possess, including programming languages, frameworks, and tools.
+Contact: Get in touch with me through the provided contact form or find my social media profiles and email address.
+Responsive Design: The portfolio is fully responsive and optimized for various devices and screen sizes, ensuring a seamless experience across desktop, tablet, and mobile.
 
 ## Getting Started
+To run this portfolio locally, follow these steps:
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Clone the repository:
+```bash 
+git clone https://github.com/dinulhaque89/portfolio.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Navigate to the project directory:
+```bash 
+cd portfolio
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Install the dependencies:
+```bash
+npm install
+```
+### Start the development server:
+```bash 
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Open your browser and visit http://localhost:3000 to see the portfolio in action.
 
-## Learn More
+## Deployment
+The portfolio is deployed using Hostinger, a reliable web hosting provider. The deployment process is automated using continuous integration and continuous deployment (CI/CD) pipelines.
 
-To learn more about Next.js, take a look at the following resources:
+## Error Tracking and Monitoring
+I use Sentry to track and monitor any errors or exceptions that occur on the portfolio website. Sentry provides real-time alerts and detailed error reports, allowing me to quickly identify and resolve any issues, ensuring a smooth user experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Acknowledgements
+I would like to thank the developers and contributors of Next.js, Acenernity UI, Shadcn UI, Tailwind CSS, Hostinger, and Sentry for their amazing tools and libraries that made building this portfolio a breeze.
+Contact
+If you have any questions, feedback, or collaboration opportunities, feel free to reach out to me through the contact form on my portfolio website or via email at princ3mo3@gmail.com.
+Thank you for visiting my developer portfolio!

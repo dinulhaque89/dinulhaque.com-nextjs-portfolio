@@ -1,4 +1,6 @@
 "use client";
+
+
 import { HeroHighlight, Highlight } from '@/components/ui/hero-highlight';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
@@ -10,7 +12,6 @@ import { techStack } from '../../../data';
 
 
 import Link from 'next/link';
-import {Button} from "@/components/ui/button"
 
 export default function HeroSection() {
 
