@@ -40,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "I have a strong foundation in full-stack development from the Software Engineering Bootcamp at General Assembly and hold multiple AWS and Azure certifications.",
+    title: "I have a strong foundation in full-stack development from the Software Engineering Bootcamp and hold multiple AWS and Azure certifications.",
     description: "Professional Development",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
