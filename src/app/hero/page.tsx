@@ -180,7 +180,7 @@ export default function HeroSection() {
             asChild
           >
             <Link 
-              href="https://linkedin.com/in/dinulhaque" 
+              href="https://www.linkedin.com/in/dinul-haque-devops" 
               target="_blank"
               className="group"
             >
@@ -196,7 +196,7 @@ export default function HeroSection() {
             asChild
           >
             <Link 
-              href="mailto:dinul.haque89@gmail.com"
+              href="mailto:princ3mo3@gmail.com"
               className="group"
             >
               <Mail className="h-6 w-6 sm:h-7 sm:w-7 group-hover:scale-110 transition-transform" />
@@ -242,12 +242,12 @@ const socialLinks = [
     label: "GitHub"
   },
   { 
-    href: "https://linkedin.com/in/dinulhaque", 
+    href: "https://www.linkedin.com/in/dinul-haque-devops", 
     icon: <LinkedinIcon className="h-6 w-6 sm:h-7 sm:w-7" />,
     label: "LinkedIn"
   },
   { 
-    href: "mailto:dinul.haque89@gmail.com", 
+    href: "mailto:princ3mo3@gmail.com", 
     icon: <Mail className="h-6 w-6 sm:h-7 sm:w-7" />,
     label: "Email"
   },
