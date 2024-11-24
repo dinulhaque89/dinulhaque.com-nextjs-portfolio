@@ -225,29 +225,46 @@ export const socialMedia = [
   },
 ];
 
+export const categorizedTechStack = {
+  frontend: [
+    { name: 'JavaScript', logo: '/techicons/javascript.svg' },
+    { name: 'TypeScript', logo: '/techicons/typescript.svg' },
+    { name: 'React', logo: '/techicons/react.svg' },
+    { name: 'NEXTJS', logo: '/techicons/nextjs.svg' },
+    { name: 'HTML5', logo: '/techicons/html.svg' },
+    { name: 'CSS3', logo: '/techicons/css.svg' },
+    { name: 'Tailwind CSS', logo: '/techicons/tailwind.svg' },
+    { name: 'Framer', logo: '/techicons/framer.svg' }
+  ],
+  backend: [
+    { name: 'Python', logo: '/techicons/python.svg' },
+    { name: 'Node.js', logo: '/techicons/nodejs.svg' },
+    { name: 'Express', logo: '/techicons/express.svg' },
+    { name: 'Flask', logo: '/techicons/flask.svg' }
+  ],
+  database: [
+    { name: 'MongoDB', logo: '/techicons/mongodb.svg' },
+    { name: 'PostgreSQL', logo: '/techicons/postgresql.svg' }
+  ],
+  devops: [
+    { name: 'Kubernetes', logo: '/techicons/kubernetes.svg' },
+    { name: 'Terraform', logo: '/techicons/terraform.svg' },
+    { name: 'Ansible', logo: '/techicons/ansible.svg' },
+    { name: 'Azure DevOps', logo: '/techicons/azuredevops.svg' },
+    { name: 'Linux', logo: '/techicons/linux.svg' },
+    { name: 'Windows', logo: '/techicons/windows.svg' },
+    { name: 'PowerShell', logo: '/techicons/powershell.svg' }
+  ],
+  monitoring: [
+    { name: 'Sentry', logo: '/techicons/sentry.svg' },
+    { name: 'Hostinger', logo: '/techicons/hostinger.svg' },
+    { name: 'Heroku', logo: '/techicons/heroku.svg' }
+  ]
+};
+
 export const techStack = [
   { name: 'JavaScript', logo: '/techicons/javascript.svg' },
   { name: 'Python', logo: '/techicons/python.svg' },
-  { name: 'HTML5', logo: '/techicons/html.svg' },
-  { name: 'CSS3', logo: '/techicons/css.svg' },
   { name: 'React', logo: '/techicons/react.svg' },
   { name: 'Node.js', logo: '/techicons/nodejs.svg' },
-  { name: 'Express', logo: '/techicons/express.svg' },
-  { name: 'MongoDB', logo: '/techicons/mongodb.svg' },
-  { name: 'PostgreSQL', logo: '/techicons/postgresql.svg' },
-  { name: 'Flask', logo: '/techicons/flask.svg' },
-  { name: 'TypeScript', logo: '/techicons/typescript.svg' },
-  { name: 'NEXTJS', logo: '/techicons/nextjs.svg' },
-  { name: 'Tailwind CSS', logo: '/techicons/tailwind.svg' },
-  { name: 'Sentry', logo: '/techicons/sentry.svg' },
-  { name: 'Hostinger', logo: '/techicons/hostinger.svg' },
-  { name: 'Heroku', logo: '/techicons/heroku.svg' },
-  { name: 'Ansible', logo: '/techicons/ansible.svg' },
-  { name: 'Terraform', logo: '/techicons/terraform.svg' },
-  { name: 'Kubernetes', logo: '/techicons/kubernetes.svg' },
-  { name: 'Linux', logo: '/techicons/linux.svg' },
-  { name: 'Windows', logo: '/techicons/windows.svg' },
-  { name: 'Azure DevOps', logo: '/techicons/azuredevops.svg' },
-  { name: 'PowerShell', logo: '/techicons/powershell.svg' },
-  { name: 'Framer', logo: '/techicons/framer.svg' }
 ];
