@@ -207,18 +207,75 @@ export default function HeroSection() {
 
         {/* Location */}
         <HoverCard>
-          <HoverCardTrigger>
-            <p className="text-xl md:text-3xl text-white flex items-center gap-2 mt-0 sm:mt-8">
-              <span>📍</span> London, UK
-            </p>
+          <HoverCardTrigger asChild>
+            <button className="group relative flex items-center gap-2 mt-0 sm:mt-8 px-6 py-3 rounded-full bg-gradient-to-r from-white/5 to-white/10 hover:from-white/10 hover:to-white/20 transition-all duration-300 border border-white/10 hover:border-white/20">
+              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500/20 to-purple-500/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <span className="animate-bounce relative">📍</span>
+              <span className="text-xl md:text-3xl text-white group-hover:text-white/90 relative">
+                London, UK
+              </span>
+              <span className="ml-2 text-xs text-white/50 group-hover:text-white/70 transition-colors">
+                (Hover for details)
+              </span>
+            </button>
           </HoverCardTrigger>
-          <HoverCardContent className="w-80">
-            <div className="flex justify-between space-x-4">
-              <div className="space-y-1">
-                <h4 className="text-sm font-semibold">Based in London</h4>
-                <p className="text-sm">
-                  Available for remote work and local opportunities in the UK
+          <HoverCardContent 
+            className="w-96 p-6 backdrop-blur-xl bg-black/80 border border-white/10 shadow-2xl shadow-purple-500/10"
+            sideOffset={8}
+          >
+            <div className="space-y-6">
+              {/* Header */}
+              <div className="space-y-2">
+                <h4 className="text-lg font-semibold text-white flex items-center gap-2">
+                  <span className="text-blue-400">🏢</span> Based in London
+                </h4>
+                <p className="text-sm text-gray-300 leading-relaxed">
+                  Available for remote work and local opportunities in the UK and worldwide
                 </p>
+              </div>
+
+              {/* Work Preferences */}
+              <div className="grid grid-cols-2 gap-4">
+                <div className="space-y-2 p-3 rounded-lg bg-white/5">
+                  <div className="flex items-center gap-2">
+                    <span className="text-green-400">🌐</span>
+                    <span className="text-sm font-medium text-white">Time Zone</span>
+                  </div>
+                  <p className="text-xs text-gray-400">GMT/BST (UTC+0/+1)</p>
+                </div>
+                <div className="space-y-2 p-3 rounded-lg bg-white/5">
+                  <div className="flex items-center gap-2">
+                    <span className="text-purple-400">💼</span>
+                    <span className="text-sm font-medium text-white">Work Type</span>
+                  </div>
+                  <p className="text-xs text-gray-400">Remote / Hybrid / On-site</p>
+                </div>
+              </div>
+
+              {/* Additional Info */}
+              <div className="space-y-2 border-t border-white/10 pt-4">
+                <div className="flex items-center gap-2 text-sm text-gray-300">
+                  <span className="text-yellow-400">✈️</span>
+                  <span>Open to travel for work</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm text-gray-300">
+                  <span className="text-blue-400">🤝</span>
+                  <span>Available for international clients</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm text-gray-300">
+                  <span className="text-green-400">📅</span>
+                  <span>Flexible working hours</span>
+                </div>
+              </div>
+
+              {/* Contact CTA */}
+              <div className="pt-2">
+                <button 
+                  onClick={() => window.location.href = 'mailto:princ3mo3@gmail.com'}
+                  className="w-full py-2 px-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg text-sm font-medium text-white hover:opacity-90 transition-opacity"
+                >
+                  Get in touch
+                </button>
               </div>
             </div>
           </HoverCardContent>

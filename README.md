@@ -90,3 +90,61 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 Built with ❤️ using Next.js, Tailwind CSS, and Aceternity UI
+
+## 🚀 Deployment
+
+This portfolio is configured for static deployment on Hostinger using GitHub Actions.
+
+### Deployment Configuration
+The project uses GitHub Actions for automated deployments to Hostinger via FTP. The workflow is configured in `.github/workflows/deploy.yml`:
+
+```yaml
+name: Deploy to Hostinger
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+      
+      - name: Install Dependencies
+        run: npm ci
+      
+      - name: Build
+        run: npm run build
+        env:
+          NODE_ENV: production
+      
+      - name: Deploy to Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./out/     # Next.js static export directory
+          server-dir: /public_html/
+          dangerous-clean-slate: true
+```
+
+### Manual Deployment
+To deploy manually:
+1. Build the project locally:
+```bash
+npm run build
+```
+2. The static files will be generated in the `out` directory
+3. Upload the contents of the `out` directory to your hosting provider
+
+### Environment Variables
+Required secrets for GitHub Actions:
+- `FTP_SERVER`: Your Hostinger FTP server address
+- `FTP_USERNAME`: Your Hostinger FTP username
+- `FTP_PASSWORD`: Your Hostinger FTP password
